@@ -8,7 +8,8 @@ Git add (nama file) -> Untuk menambahkan file yang belum di masukkan
 Git add . -> Untuk membuat semuanya ke staging area tanpa terkecuali                              
 Git rm --chached (nama file) --> Mengeluarkan dari staging area 
         Ctt: Sebelum di commit harus di masukkan dahulu ke staging area Untuk
-            Menjadikannya sebagai folder git bukan cuma folder biasa
+            Menjadikannya sebagai folder git bukan cuma folder biasa ,
+            jika sudah di commit maka dia akan keluar dari staging area (tidak ada)
 Git commit -> 1. nama nya siapa 
               2. tgl commit 
               3. hash 
