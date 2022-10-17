@@ -23,6 +23,7 @@ Git commit -m (Pesan tak perlu tulis) "menambahkan file index.html" -> memberi p
 Git log -> Untuk melihat history perubahan yang dilakukan
 Git log -3 -> untuk melihat history commit 3 terakhir 
 Git log -- style.css -> Mencari history commit style.css ada berapa commit
-Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama filenya) -> untuk menembalikan file yang sudha di hapus atau ke commit sebelumnya  dan file yang sudah di kembalikan akan masuk ke stagin area (harus dicommit lagi) 
+Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama filenya) -> untuk menembalikan file yang sudha di hapus atau ke commit sebelumnya  dan file yang sudah di kembalikan akan masuk ke stagin area (harus dicommit lagi) dan filenya muncul kembali 
+U -> aritnya git nya belum berada di staging area (untreak)
 
 
