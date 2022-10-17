@@ -9,7 +9,8 @@ Git add . -> Untuk membuat semuanya ke staging area tanpa terkecuali
 Git rm --chached (nama file) --> Mengeluarkan dari staging area 
         Ctt: Sebelum di commit harus di masukkan dahulu ke staging area Untuk
             Menjadikannya sebagai folder git bukan cuma folder biasa ,
-            jika sudah di commit maka dia akan keluar dari staging area (tidak ada)
+            jika sudah di commit maka dia akan keluar dari staging area (tidak ada),
+            setiap kali commit maka head (branch aktif akan di commit terbaru)
 Git commit -> 1. nama nya siapa 
               2. tgl commit 
               3. hash 
@@ -22,11 +23,15 @@ Sebelum di Git Commit harus di isi dulu ke 4 di atas
 Git commit -m (Pesan tak perlu tulis) "menambahkan file index.html" -> memberi pesan commit
 Git commit -a -m "menabamkan file index.htm" (bisa langsung di commit tanpa
         harus di masukkan ke staging area dulu )
+Head -> menunjukkan Branch mana yang aktif        
 Git log -> Untuk melihat history perubahan yang dilakukan
 Git log -3 -> untuk melihat history commit 3 terakhir 
 Git log -- style.css -> Mencari history commit style.css ada berapa commit
 Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama filenya) -> untuk menembalikan file yang sudha di hapus atau ke commit sebelumnya  dan file yang sudah di kembalikan akan masuk ke stagin area (harus dicommit lagi) dan filenya muncul kembali 
 U -> aritnya git nya belum berada di staging area (untreak)
 M -> Modified
+git branch -> Menampilkan ada branch apa saja
+git branch (nama branch) -> untuk melakukan branch baru
+* -> artinya branch yang aktif
 
 
