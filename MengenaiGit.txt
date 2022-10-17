@@ -20,4 +20,9 @@ Sebelum di Git Commit harus di isi dulu ke 4 di atas
 ! 1. git config --global user.name "becakdaruratt"
 ! 2. git config --global user.email "pwdarurat@gmail.com"
 Git commit -m (Pesan tak perlu tulis) "menambahkan file index.html" -> memberi pesan commit
+Git log -> Untuk melihat history perubahan yang dilakukan
+Git log -3 -> untuk melihat history commit 3 terakhir 
+Git log -- style.css -> Mencari history commit style.css ada berapa commit
+Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama filenya) -> untuk menembalikan file yang sudha di hapus atau ke commit sebelumnya  dan file yang sudah di kembalikan akan masuk ke stagin area (harus dicommit lagi) 
+
 
