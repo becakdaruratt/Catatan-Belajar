@@ -1,0 +1,22 @@
+Git init -> Untuk menajadikan atau membuat repo kita secara      
+            otomatis dibuat , dan punya brain master
+ls -> adalah melist ada file apa saja   
+Git status -> untuk memberitahukan ada git apa saja yang belum di 
+            Commit
+Git add (nama file) -> Untuk menambahkan file yang belum di masukkan
+                        Ke staging area
+Git add . -> Untuk membuat semuanya ke staging area tanpa terkecuali                              
+Git rm --chached (nama file) --> Mengeluarkan dari staging area 
+        Ctt: Sebelum di commit harus di masukkan dahulu ke staging area Untuk
+            Menjadikannya sebagai folder git bukan cuma folder biasa
+Git commit -> 1. nama nya siapa 
+              2. tgl commit 
+              3. hash 
+              4. Pesan commit
+              5. Emailnya siapa 
+Sebelum di Git Commit harus di isi dulu ke 4 di atas
+        Isi ke 2 hal ini jika ingin git commit 
+! 1. git config --global user.name "becakdaruratt"
+! 2. git config --global user.email "pwdarurat@gmail.com"
+Git commit -m (Pesan tak perlu tulis) "menambahkan file index.html" -> memberi pesan commit
+
