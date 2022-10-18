@@ -38,4 +38,7 @@ Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama
 -        alias graph="" -> untuk membuat nama lain dari tulisan git yang panjangan atau di singkat      
 Git checkout (nama file branch) -> untuk memindahkan branch yang aktif
 
-
+        Jenis Merge 
+  * Fast Forward  -> jalur langsung di satu jalan
+  (git merge (nama branch))  
+  * Three-way Merge 
