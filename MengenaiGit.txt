@@ -31,7 +31,7 @@ Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama
 -         U -> aritnya git nya belum berada di staging area (untreak)
 -        M -> Modified
 -        git branch -> Menampilkan ada branch apa saja
--        git branch (nama branch) -> untuk melakukan branch baru
+-        git branch (nama branch - tapi branch harus di master dulu) -> untuk melakukan branch baru
 -        * -> artinya branch yang aktif
 -        git log --all --decorate --oneline --graph -> Menampilkan visualisasi dari insigth 
         network git (secara visual urutannya)
