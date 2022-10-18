@@ -29,4 +29,7 @@ Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama
 U -> aritnya git nya belum berada di staging area (untreak)
 M -> Modified
 
-
+        Jenis Merge 
+  * Fast Forward  -> jalur langsung di satu jalan
+  (git merge (nama branch))  
+  * Three-way Merge 
