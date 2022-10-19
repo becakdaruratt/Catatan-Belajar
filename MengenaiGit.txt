@@ -28,6 +28,7 @@ Git log -> Untuk melihat history perubahan yang dilakukan
 Git log -3 -> untuk melihat history commit 3 terakhir 
 Git log -- style.css -> Mencari history commit style.css ada berapa commit
 Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama filenya) -> untuk menembalikan file yang sudha di hapus atau ke commit sebelumnya  dan file yang sudah di kembalikan akan masuk ke stagin area (harus dicommit lagi) dan filenya muncul kembali 
+<<<<<<< HEAD
 -         U -> aritnya git nya belum berada di staging area (untreak)
 -        M -> Modified
 -        git branch -> Menampilkan ada branch apa saja
@@ -37,6 +38,16 @@ Git checkout (5 digit nama commit hash yang ingin dikembalikan filenya) -- (nama
         network git (secara visual urutannya)
 -        alias graph="" -> untuk membuat nama lain dari tulisan git yang panjangan atau di singkat      
 Git checkout (nama file branch) -> untuk memindahkan branch yang aktif
+=======
+U -> aritnya git nya belum berada di staging area (untreak)
+M -> Modified
+git checkout (nama file) -> berpindah commit
+>>>>>>> dosen
+
+git branch -d (nama branch) -> cara menghapus branch
+git branch --merged -> untuk tau branch mana yang di merge
+git branch -D -> Untuk menghapus branch 
+Three-way Merge -> menggabungkan branch yang berlawanan 
 
         Jenis Merge 
   * Fast Forward  -> jalur langsung di satu jalan
