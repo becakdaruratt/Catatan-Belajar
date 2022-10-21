@@ -53,3 +53,9 @@ Three-way Merge -> menggabungkan branch yang berlawanan
   * Fast Forward  -> jalur langsung di satu jalan
   (git merge (nama branch))  
   * Three-way Merge 
+
+
+
+        dan kalau kita graph , head atau branch yang aktifnya skarang adalah master 
+dan skarang kita akan melakukan perubhaan pada master, setelah di branch safety tadi kita melakukan perubahan , dan di master juga sama kita akan ganti isi di branch master di h3 nya jadi h4 , di branch safety h1 , dan di master bukan h1 tapi h4 , jadi lebih kecil dari h1 , coba lihat baris yang sama berubah nya beda , jadi ini tidak bisa nanti di lakukan merge , dan di master nya kita akan hapus , li sandikanya , jadi di master data sandikanya nya hilang , jadi istilahnya ada data yang di ubah pada baris yang sama , dan ada data yang di hapus , dan terakhir kita akan coba tambhakan <p>coba paragraf</p>, jadi tiga perubahan nya dilakukan di baris yang sama tapi berbeda jadi ketika di merge kita harus manual untuk resaultnya
+, dan sekarang ini kita akan coba commit dahulu , ingat sebelum di commit masukkan dahuluke stagin area 
